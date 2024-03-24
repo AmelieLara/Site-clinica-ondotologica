@@ -1,0 +1,203 @@
+@import url("https://fonts.googleapis.com/css2?family=Yantramanav:wght@300&display=swap");
+
+body{
+  text-align: center;
+  font-family: "Yantramanav", sans-serif;
+  width: fit-content;
+}
+
+header{
+  background-color: #ba9494;
+  width: auto;
+  padding: 7px 0;
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+main{
+  background-color: #edcac9;
+}
+
+.cabecalho-geral{
+  margin: auto;
+  padding: auto;
+  display: flex;
+  justify-content: flex-start;
+  gap: 250px;
+}
+
+.cabecalho li{
+  display: inline;
+}
+
+.cabecalho-geral a{
+  text-decoration: none;
+  color: black;
+}
+
+.cabecalho-geral a:hover{
+  text-decoration: underline;
+}
+
+.cabecalho{
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 20px;
+  text-decoration: none;
+  margin-top: 7.5%;
+}
+
+.logo-cabecalho{
+  margin-top: 3.5%;
+}
+
+.logo-cabecalho li{
+  display: inline;
+}
+
+.logo-facebook, .logo-instagram, .logo-whats{
+  width: 7.5%;
+  border-radius: 7px;
+}
+
+.logo-facebook:hover{
+  width: 10%;
+}
+
+.logo-instagram:hover{
+  width: 10%;
+}
+
+.logo-whats:hover{
+  width: 10%;
+}
+
+.fachada{
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  gap: 200px;
+}
+
+.fachada img{
+  margin-top: 3%;
+  margin-bottom: 5%;
+  width: 20%;
+  border-radius: 2px;
+}
+
+.fachada h2{
+  margin-top: 12%;
+  font-size: 22px;
+}
+
+#agenda-consulta:hover{
+  text-decoration: underline;
+  font-size: 24px;
+}
+
+.fachada a{
+  text-decoration: none;
+  color: black;
+}
+
+.tratamentos{
+  margin-bottom: 5%;
+}
+.tratamentos h2{
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 4%;
+}
+
+.tratamentos li{
+  display: inline-block;
+
+  .titulo-tratamento{
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  .equipe{
+    margin-bottom: 5%;
+  }
+}
+.equipe h2{
+  font-size: 26px;
+  font-weight: bold;
+  margin-bottom: 2%;
+}
+
+.equipe a{
+  text-decoration: none;
+  color: black;
+}
+
+.equipe li{
+  display: inline-block;
+}
+
+.titulo-equipe{
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.titulo-equipe2{
+  font-size: 15px;
+}
+
+.foto-renata{
+  width: 45%;
+}
+
+.foto-renata:hover {
+  width: 50%;
+}
+
+.foto-maiara{
+  width: 100%;
+}
+
+.foto-maiara:hover{
+  width: 105%;
+}
+
+.estrutura{
+  font-size: 26px;
+  font-weight: bold;
+  margin-top: 5%;
+}
+
+.contato{
+  font-size: 26px;
+  font-weight: bold;
+  margin-top: 5%;
+}
+
+.titulo-endereco, .titulo-telefone, .titulo-horario {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 1%;
+}
+
+.endereco, .telefone, .horario {
+  font-size: 18px;
+  margin-top: 1%;
+}
+
+.mapa{
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+footer{
+  background-color: #cab0ad;
+}
+
+.footer{
+  font-size: 15px;
+  line-height: 12px;
+  font-weight: bold;
+  padding-top: 1%;
+  padding-bottom: 0.5%;
+}
